@@ -1,175 +1,187 @@
-        body {
-            color: white;
-            margin: 0px;
-        }
-        
-        nav {
-            height: 80px;
-            background-color: black;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            font-size: 16px;
-            font-family: Helvetica;
-            font-weight: 100;
-            position: fixed;
-            width: 100%;
-        }
-        
-        a {
-            font-weight: 600;
-            font-size: 15px;
-            text-decoration: none;
-            color: whitesmoke;
-        }
-        
-        a:hover {
-            color: #1ed760;
-        }
-        
-        section {
-            height: 900px;
-            background-color: #f037a5;
-            background: linear-gradient(#f037a5 -60%, #fae62d 140%);
-            background: -webkit-gradient( linear, left top, left bottom, color-stop(-60%, #f037a5), color-stop(140%, #fae62d));
-            align-items: center;
-            width: 101%;
-        }
-        
-        .logo {
-            width: 110px;
-        }
-        
-        .menu {
-            width: 500px;
-            font-size: 16px;
-            font-weight: 900;
-            font-family: Helvetica;
-            display: flex;
-            justify-content: space-around;
-        }
-        
-        .hero-img {
-            height: 100%;
-            background-size: cover;
-            background-position: right;
-            background-repeat: no-repeat;
-            background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .main-container {
-            font-size: 16px;
-            font-family: Helvetica;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        h1 {
-            font-weight: 800;
-            font-size: 60px;
-            text-align: center;
-            font-family: Helvetica;
-            align-items: flex-start;
-        }
-        
-        h2 {
-            font-weight: 580;
-            font-size: 16px;
-            text-align: center;
-            font-family: Helvetica;
-        }
-        
-        button {
-            background-color: #1DB954;
-            color: whitesmoke;
-            width: 252.68px;
-            height: 47.73px;
-            border-radius: 30px;
-            border: none;
-            font-weight: 650;
-            font-size: 14px;
-            margin-top: 35px;
-            align-items: center;
-            font-family: Helvetica;
-        }
-        
-        button:hover {
-            background-color: #1ED760;
-        }
-        
-        ul {
-            font-size: 10px;
-            font-weight: 500;
-            margin-bottom: 60px;
-            list-style-type: none;
-            color: #919496;
-        }
-        
-        li {
-            font-size: 12px;
-            color: #ffffff;
-            margin: 20px 20px 20px 0;
-        }
-        
-        .row {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .last-row {
-            display: flex;
-            justify-content: space-between;
-            color: #919496;
-            font-size: 13px;
-        }
-        
-        footer {
-            height: 25vh;
-            background: black;
-            font-size: 8px;
-            font-weight: 500;
-            width: 101%;
-            align-items: flex-end;
-            display: flex;
-            justify-content: center;
-            padding-top: 290px;
-            padding-bottom: 0px;
-        }
-        
-        i:hover {
-            color: #1ed760;
-        }
-        
-        li:hover {
-            color: #1ed760;
-        }
-        
-        .container {
-            max-width: 930px;
-            width: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            justify-content: flex-end;
-            height: 380px;
-            padding-top: 40px;
-        }
-        
-        .footer-item {
-            margin: 10px 10px 2px 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .footer-item:hover {
-            color: #1ed760;
-        }
-        
-        .column {
-            display: flex;
-            flex-direction: column;
-        }
+                    body {
+                        color: white;
+                        margin: 0px;
+                    }
+                    
+                    nav {
+                        height: 80px;
+                        background-color: black;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: 100;
+                        position: fixed;
+                        width: 100%;
+                        opacity: 0.7;
+                    }
+                    
+                    a {
+                        color: white;
+                        font-weight: 600;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+                    
+                    a:hover {
+                        color: #1ed760;
+                    }
+                    
+                    section {
+                        height: 700px;
+                        background-color: #f037a5;
+                        background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+                        background: -webkit-gradient( linear, left top, left bottom, color-stop(-60%, #f037a5), color-stop(140%, #fae62d));
+                        align-items: center;
+                        width: 101%;
+                    }
+                    
+                    .logo {
+                        width: 140px;
+                    }
+                    
+                    .menu {
+                        color: white;
+                        width: 500px;
+                        font-family: Helvetica;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .hero-img {
+                        height: 100%;
+                        background-size: cover;
+                        background-position: bottom;
+                        background-repeat: no-repeat;
+                        background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .main-container {
+                        font-size: 16px;
+                        font-family: Helvetica;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    h1 {
+                        font-weight: 800;
+                        font-size: 60px;
+                        text-align: center;
+                        font-family: Helvetica;
+                        align-items: flex-start;
+                    }
+                    
+                    h2 {
+                        font-weight: 580;
+                        font-size: 16px;
+                        text-align: center;
+                        font-family: Helvetica;
+                    }
+                    
+                    button {
+                        background-color: #1DB954;
+                        color: whitesmoke;
+                        width: 252.68px;
+                        height: 47.73px;
+                        border-radius: 30px;
+                        border: none;
+                        font-weight: 650;
+                        font-size: 14px;
+                        margin-top: 35px;
+                        align-items: center;
+                        font-family: Helvetica;
+                    }
+                    
+                    button:hover {
+                        background-color: #1ED760;
+                    }
+                    
+                    ul {
+                        font-size: 12px;
+                        font-weight: 500;
+                        margin-bottom: 60px;
+                        list-style-type: none;
+                        color: #919496;
+                    }
+                    
+                    li {
+                        font-size: 16px;
+                        color: #ffffff;
+                        margin: 20px 20px 20px 0;
+                    }
+                    
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .last-row {
+                        display: flex;
+                        justify-content: space-between;
+                        color: #919496;
+                        font-size: 12px;
+                    }
+                    
+                    footer {
+                        height: 25vh;
+                        background: black;
+                        font-size: 8px;
+                        font-weight: 500;
+                        width: 101%;
+                        align-items: flex-end;
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 290px;
+                        padding-bottom: 0px;
+                    }
+                    
+                    i:hover {
+                        color: #1ed760;
+                    }
+                    
+                    li:hover {
+                        color: #1ed760;
+                    }
+                    
+                    .container {
+                        max-width: 1100px;
+                        width: 100%;
+                        font-family: Helvetica;
+                        justify-content: flex-end;
+                        height: 380px;
+                        padding-top: 40px;
+                    }
+                    
+                    .footer-item {
+                        margin: 10px 10px 2px 10px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .footer-item:hover {
+                        color: #1ed760;
+                    }
+                    
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                    }
+                    
+                    .icons {
+                        margin-left: 200px;
+                    }
+                    
+                    .vietnam {
+                        text-align: right;
+                        font-size: 13px;
+                        color: #919496;
+                        margin: 10px;
+                    }
